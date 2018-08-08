@@ -1,13 +1,38 @@
-body{
-  margin: 0;
-  padding: 0;
-  background: url(back2.jpg) no-repeat;
-  background-size: cover;
+body {
+  /* Location of the image */
+  background-image: url(back.jpg);
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+   font-family: 'Century Gothic',sans-serif;
+}
+@media only screen and (max-width: 300px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(back2.jpg);
+  }
 }
 .box{
-  width: 450px;
+  width: 255px;
   background: rgba(0, 0, 0, 0.4);
-  padding: 40px;
+  padding: 15px;
   text-align: center;
   margin: auto;
   margin-top: 5%;
@@ -29,21 +54,17 @@ body{
   letter-spacing: 3px;
   font-weight: 100;
 }
-.box p{
-  text-align: justify;
-}
+
 ul{
   margin: 0;
   padding: 0;
-  border-radius: 50%
 }
 .box li{
   display: inline-block;
   margin: 6px;
   list-style: none;
 }
-.box li a
-{
+.box li a{
   color: white;
   text-decoration: none;
   font-size: 60px;
