@@ -1,4 +1,5 @@
 body {
+      background-size: cover;
   /* Location of the image */
   background-image: url(back.jpg);
 
