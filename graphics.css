@@ -1,45 +1,46 @@
 body {
-  background-image: url(pubg3.jpg);
+
+  background-size:cover;
+  /* Location of the image */
+  background-image: url(back.jpg);
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Image doesn't repeat */
   background-repeat: no-repeat;
-  height: device-height;
-  weight: device-weight;
-  background-position: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
   background-color:#464646;
-  font-family: 'Century Gothic',sans-serif;
+
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+   font-family: 'Century Gothic',sans-serif;
 }
 @media only screen and (max-width: 720px)
 {
   body{
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-     background: url(pubg5.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    overflow: scroll;
+    background-image: url(back2.jpg);
   }
 }
 .box{
-  width: 250px;
-  height: auto;
+  width: 256px;
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
   text-align: center;
   margin: auto;
-  margin-top: 8%;
+  margin-top: 5%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
-  overflow: hidden;
-  overflow-y: auto;
-
 }
 
 .box-img{
