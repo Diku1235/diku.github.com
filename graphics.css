@@ -31,6 +31,13 @@ body
   background-size: cover;
   font-family: GothamMedium;
 }
+@media only screen and (max-width: 720px)
+{
+  body
+  {
+    background: url(back2.jpg) no-repeat center center fixed;
+  }
+}
 }
 .box{
   width: 80%;
@@ -56,10 +63,10 @@ body
 @media only screen and (max-width: 720px)
 {
   .under
-  {
+{
     font-family: Playlist Script;
     font-size: 70px;
-  }
+}
 }
 ul{
   margin: 0;
