@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Playlist Script;
+  src: url('fonts/Playlist Script.otf');
+}
+
+
 body {
   background-image: url(back.jpg);
   background-position: center center;
@@ -15,12 +21,10 @@ body {
   }
 }
 .box{
-  width: 500px;
-  padding: 15px;
+  width: 80%;
+  padding: 10%;
   vertical-align: center;
   text-align: center;
-  margin: auto;
-  margin-top: 5%;
   color: white;
   font-family: sans-serif;
 }
@@ -28,5 +32,19 @@ body {
 {
   .box{
     width: 256px;
+  }
+}
+.under
+{
+  font-family: Playlist Script;
+  font-size: 100px;
+  text-align: center;
+}
+@media only screen and (max-width: 720px)
+{
+  .under
+  {
+    font-family: Playlist Script;
+    font-size: 50px;
   }
 }
