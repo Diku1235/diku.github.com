@@ -11,13 +11,14 @@
 body
 {
   background: url(back.jpg) no-repeat center center fixed;
-  background-color:#464646;
+  background-color:white;
   font-size: 12px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-family: GothamMedium;
+  color: white;
 }
 @media only screen and (max-width: 720px)
 {
@@ -85,3 +86,12 @@ li a:hover{
   color: #b9b9b9;
 }
 /*=========================================================================================*/
+
+.parallax {
+    background-image: url("http://s1.picswalls.com/wallpapers/2015/09/20/2015-wallpaper_111525594_269.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
