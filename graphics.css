@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color:#464646;
+  background-height: auto;
   font-family: 'Century Gothic',sans-serif;
 }
 @media only screen and (max-width: 720px)
