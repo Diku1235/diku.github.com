@@ -44,6 +44,7 @@ body
 {
   .box{
     width: 256px;
+    height: auto;
   }
 }
 .under
