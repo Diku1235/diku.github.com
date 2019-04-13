@@ -44,7 +44,6 @@ body
 {
   .box{
     width: 256px;
-    height: device-height;
   }
 }
 .under
