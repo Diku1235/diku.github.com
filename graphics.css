@@ -34,19 +34,21 @@ body
   color: rgba(255, 255, 255, 0.5);
 }
 /*=========================================================================================*/
+.mainbox
+{
+  height: 100vh;
+  width: 100%;
+}
 
-
-.box{
-  width: 80%;
-  padding: 10%;
-  text-align: center;
-  color: white;
-  font-family:GothamMedium;
+.box
+{
+padding-top: 3%;
 }
 @media only screen and (max-width: 720px)
 {
-  .box{
-    width: 90%;
+  .box
+  {
+    padding-top: 15%;
   }
 }
 /*=========================================================================================*/
@@ -94,4 +96,33 @@ li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*=========================================================================================*/
+.profile
+{
+  width: 280px;
+  height: 280px;
+  border-radius: 100%;
+}
+@media only screen and (max-width: 720px)
+{
+  .profile
+  {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+}
+/*=========================================================================================*/
+.about
+{
+  width: 400px;
+}
+@media only screen and (max-width: 720px)
+{
+  .about
+  {
+    width: 250px;
+  }
 }
