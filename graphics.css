@@ -10,12 +10,6 @@
 
 body
 {
-  background: radial-gradient(#f6c 15%, rgba(0,0,0,0) 16%), radial-gradient(#6cf 15%, rgba(0,0,0,0) 16%), #ffdbed;
-  background-position: 0 0, 30px 30px;
-  background-origin: padding-box;
-  background-clip: border-box;
-  background-size: 60px 60px;
-  /*
   background: url(back.jpg) no-repeat center center fixed;
   background-color:white;
   -webkit-background-size: cover;
@@ -24,18 +18,13 @@ body
   background-size: cover;*/
   font-size: 12px;
   font-family: GothamMedium;
-  color: black;
+  color: white;
 }
 @media only screen and (max-width: 720px)
 {
   body
   {
-    background: radial-gradient(#f6c 15%, rgba(0,0,0,0) 16%), radial-gradient(#6cf 15%, rgba(0,0,0,0) 16%), #ffdbed;
-    background-position: 0 0, 30px 30px;
-    background-origin: padding-box;
-    background-clip: border-box;
-    background-size: 60px 60px;
-    /*background: url(back2.jpg) no-repeat center center fixed;*/
+    background: url(back2.jpg) no-repeat center center fixed;
   }
 }
 /*=========================================================================================*/
@@ -90,7 +79,7 @@ li{
   list-style: none;
 }
 li a{
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 40px;
   transition: all ease-in-out 250ms;
